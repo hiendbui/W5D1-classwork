@@ -41,7 +41,7 @@ class LinkedList
   end
 
   def empty?
-    
+    self.all? {|k,v| k.nil? && v.nil?}
   end
 
   def get(key)
